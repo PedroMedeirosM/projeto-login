@@ -7,6 +7,7 @@
 
     section#Login {
         width: 80vh;
+        height: 280px;
     }
     
     section#Login > div#imagem {
@@ -29,17 +30,26 @@
 
     section#Login {
         width: 900px;
+        height: 350px;
     }
     
     section#Login > div#imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#Login > div#form {
-        float: right;
+        float: left;
         width: 50%;
         height: 100px;
+    }
+
+    div#form > h1 { 
+        font-size: 2em;
+    }
+    
+    div#form > p {
+        font: 1em;
     }
 }
